@@ -43,6 +43,13 @@ sudo mv zImageOptimizer.sh zio.sh
 sudo chmod +x zio.sh
 
 echo "=============================="
+echo "Downloading: Runcloud shell api wrapper"
+echo "=============================="
+cd /usr/local/bin && sudo wget https://raw.githubusercontent.com/RunCloud-cdk/shell-api-wrapper/master/rcdk.sh
+sudo mv rcdk.sh rcdk
+sudo chmod +x rcdk
+
+echo "=============================="
 echo "Delete self"
 echo "=============================="
 rm -- "$0"
