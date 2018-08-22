@@ -50,6 +50,11 @@ sudo mv rcdk.sh rcdk
 sudo chmod +x rcdk
 
 echo "=============================="
+echo "Downloading: jq is a lightweight and flexible command-line JSON processor"
+echo "=============================="
+apt-get install jq -y
+
+echo "=============================="
 echo "Delete self"
 echo "=============================="
 rm -- "$0"
