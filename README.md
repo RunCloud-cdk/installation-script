@@ -9,6 +9,7 @@ ___
 * [adminer](https://github.com/vrana/adminer) installer - run from your app public directory  `adminer.sh`
 * [srdb](https://github.com/interconnectit/Search-Replace-DB) installer - run from your app public directory  `srdb.sh`
 * [zImageOptimizer](https://github.com/zevilz/zImageOptimizer) - Simple bash script for lossless image optimizing - `zio.sh` 
+* [rcdk](https://github.com/RunCloud-cdk/shell-api-wrapper) - Runcloud shell api wrapper - `rcdk` 
 
 ## Install
 1. Create the new sever - [link](https://manage.runcloud.io/servers/create)
@@ -19,6 +20,6 @@ $ wget https://raw.githubusercontent.com/RunCloud-cdk/installation-script/master
 ```
 
 ## ToDo
-- [ ] RunCloud Shell API wrapper
+- [X] RunCloud Shell API wrapper
 - [ ] App creation shell installer
 - [ ] Bedrock installation script
