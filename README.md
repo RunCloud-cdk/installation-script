@@ -10,6 +10,7 @@ ___
 * [srdb](https://github.com/interconnectit/Search-Replace-DB) installer - run from your app public directory  `srdb.sh`
 * [zImageOptimizer](https://github.com/zevilz/zImageOptimizer) - Simple bash script for lossless image optimizing - `zio.sh` 
 * [rcdk](https://github.com/RunCloud-cdk/shell-api-wrapper) - Runcloud shell api wrapper - `rcdk` 
+* [jq](https://github.com/stedolan/jq) - jq is a lightweight and flexible command-line JSON processor
 
 ## Install
 1. Create the new sever - [link](https://manage.runcloud.io/servers/create)
