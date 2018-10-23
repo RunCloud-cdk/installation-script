@@ -62,6 +62,11 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 sudo apt install yarn
 
 echo "=============================="
+echo "Downloading: gulp - a toolkit for automating painful or time-consuming tasks in your development workflow"
+echo "=============================="
+npm install gulp-cli -g
+
+echo "=============================="
 echo "Delete self"
 echo "=============================="
 rm -- "$0"
