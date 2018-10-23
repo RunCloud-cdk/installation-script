@@ -11,6 +11,8 @@ ___
 * [zImageOptimizer](https://github.com/zevilz/zImageOptimizer) - Simple bash script for lossless image optimizing - `zio.sh` 
 * [rcdk](https://github.com/RunCloud-cdk/shell-api-wrapper) - Runcloud shell api wrapper - `rcdk` 
 * [jq](https://github.com/stedolan/jq) - jq is a lightweight and flexible command-line JSON processor
+* [yarn](https://yarnpkg.com/en) - yarn - fast, reliable, and secure dependency management
+* [gulp](https://gulpjs.com) - gulp is a toolkit for automating painful or time-consuming tasks in your development workflow
 
 ## Install
 1. Create the new sever - [link](https://manage.runcloud.io/servers/create)
