@@ -59,7 +59,8 @@ echo "Downloading: yarn fast, reliable, and secure dependency management"
 echo "=============================="
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-sudo apt install yarn
+sudo apt update
+sudo apt -y install yarn
 
 echo "=============================="
 echo "Downloading: gulp - a toolkit for automating painful or time-consuming tasks in your development workflow"
