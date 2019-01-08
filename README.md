@@ -26,3 +26,4 @@ $ wget https://raw.githubusercontent.com/RunCloud-cdk/installation-script/master
 - [X] RunCloud Shell API wrapper
 - [ ] App creation shell installer
 - [ ] Bedrock installation script
+- [ ] Autoinstall rocket nginx
