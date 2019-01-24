@@ -68,6 +68,15 @@ echo "=============================="
 npm install gulp-cli -g
 
 echo "=============================="
+echo "Install Rocket Nginx"
+echo "=============================="
+git clone https://github.com/RunCloud-cdk/rocket-nginx.git /etc/nginx-rc/rocket-nginx
+cp /etc/nginx-rc/rocket-nginx/rocket-nginx.ini.disabled /etc/nginx-rc/rocket-nginx/rocket-nginx.ini
+cd /etc/nginx-rc/rocket-nginx/
+php rocket-parser.php
+cd ~/
+
+echo "=============================="
 echo "Delete self"
 echo "=============================="
 rm -- "$0"
