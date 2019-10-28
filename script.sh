@@ -50,9 +50,11 @@ sudo mv rcdk.sh rcdk
 sudo chmod +x rcdk
 
 echo "=============================="
-echo "Downloading: jq is a lightweight and flexible command-line JSON processor"
+echo "Downloading: yq is a lightweight and flexible command-line YAML processor"
 echo "=============================="
-apt-get install jq -y
+sudo add-apt-repository ppa:rmescandon/yq
+sudo apt update
+sudo apt install yq -y
 
 echo "=============================="
 echo "Downloading: yarn fast, reliable, and secure dependency management"
