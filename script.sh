@@ -36,13 +36,6 @@ cd /usr/local/bin && sudo wget https://gist.githubusercontent.com/DimaMinka/24c3
 sudo chmod +x srdb.sh
 
 echo "=============================="
-echo "Downloading: zImageOptimizer - zio.sh"
-echo "=============================="
-cd /usr/local/bin && sudo wget https://raw.githubusercontent.com/zevilz/zImageOptimizer/master/zImageOptimizer.sh
-sudo mv zImageOptimizer.sh zio.sh
-sudo chmod +x zio.sh
-
-echo "=============================="
 echo "Downloading: Runcloud shell api wrapper"
 echo "=============================="
 cd /usr/local/bin && sudo wget https://raw.githubusercontent.com/RunCloud-cdk/shell-api-wrapper/master/rcdk.sh
@@ -55,14 +48,6 @@ echo "=============================="
 sudo add-apt-repository ppa:rmescandon/yq
 sudo apt update
 sudo apt install yq -y
-
-echo "=============================="
-echo "Downloading: yarn fast, reliable, and secure dependency management"
-echo "=============================="
-curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-sudo apt update
-sudo apt -y install yarn
 
 echo "=============================="
 echo "Downloading: gulp - a toolkit for automating painful or time-consuming tasks in your development workflow"
